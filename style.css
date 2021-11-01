@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:grey;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#container1{
+
+    display: block;
+    align-items: center;
+    margin: 5px;
+
+
+}
+.borderbox{
+    border: 5px solid red;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: purple 8px 8px 4px;
+    
+}
+.box{
+    text-shadow:1px 2.01px 1.6px purple;  
+    display: block; 
+    color:purple;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: italic;
+    height: 100px;
+    width: 360px;
+    padding: 7px;
+    margin-left: 470px;
+}
+#fixed{
+    position: fixed;
+    bottom: 60px;
+    left: 480px;
+    display: flex;
+    border:6px solid red;
+    border-radius: 12px;
+    color: brown;
+    background-color: greenyellow;
+    font-style: italic;
+    font-weight: bold;
+    box-shadow: purple 8px 8px 4px;
+}
+.offer{
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.discount{
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+hr{
+    color: white;
+    margin-bottom: 4px;
+}
+#container2{
+    border: 6px solid green;
+    margin-top: 5px;
+    justify-content: space-evenly;
+    display: block;
+}
+#top{
+    display: flex;
+}
+.box1{
+    height: 181px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    line-height: 36px;
+    font-weight: bolder;
+    color: rgb(47, 0, 80);
+    text-shadow: 1px 2.01px 1.6px purple;
+    font-size:21px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
+
+
+}
+.box2{
+    height: 181px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 812px;
+    display: block;
+    font-size:21px;
+
+    
+   
+}
+img{
+    height:120px;
+    padding: 10px;
+    padding-top: 23px;
+}
+#bottom{
+    display: flex;
+    padding-top: 70px;
+    margin-bottom: 30px;
+}
+.box3{
+    height: 181px;
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+    font-weight: bolder;
+    color: rgb(47, 0, 80);
+    text-shadow: 1px 2.01px 1.6px purple;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
+}
+.box4{
+    height: 181px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(47, 0, 80);
+    text-shadow: 1px 2.01px 1.6px purple;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 812px;
+    display: block;
+    font-size: 21px;
+
+}
+.rate{
+    font-size: 13px;
+
+
+}
+#submithere{
+    background-color: red;
+    border-radius: 15px;
+    padding: 3px;
+    color: rgb(47, 0, 80);
+    text-shadow: 1px 2.01px 1.6px purple;
+    }
+#container3{
+    display: flex;
+    }
+.float{
+    border: 7px solid purple;
+    margin: 30px auto;
+    background-color: green;
+    margin-bottom:150px;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+}
+.same{
+    border: 3px solid grey;
+    background-color:khaki;
+    line-height: 10px;
+    margin: 5px;
+    text-align: center;
+    font-style: italic;
+    line-height: 41px;
+    padding-top: 22px;
+    
+}
+.Fruits{
+    
+    float:left;
+    width: 47%;
+    
+}
+.title1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: italic;
+}
+.Vegetables{
+
+    float:left;
+    width:50%;
+}
+.Other{
+
+clear: both;
+padding-left: 10px;
+padding-right: 10px;
+margin-bottom: 10px;
+    
+}
